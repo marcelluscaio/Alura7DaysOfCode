@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <style>
+      *{
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      }
+      
+      p{ 
+      margin-bottom:2px;
+      }
+
+      button{
+      display: block;
+      margin-top: 10px;
+      }
+
+      .resposta{
+         display: none;
+      }
+
+      .resposta-aparece{
+         display:block
+      }
+   </style>
+
+</head>
+<body>
+   <main>
+      <h3>Apresente-se, por favor</h3>
+      <form>
+         <p> Qual é o seu nome?</p>
+         <label for="nome">Nome</label>
+         <input type="text" placeholder="Digite seu nome" id="nome"/>
+         <p> Quantos anos você tem?</p>
+         <label for="idade">Idade</label>
+         <input type="number" placeholder="Digite sua idade" id="idade"/>
+         <p> Qual linguagem de programação está estudando?</p>
+         <label for="linguagem">Linguagem</label>
+         <input type="text" placeholder="Digite a linguagem de programação" id="linguagem"/>
+         <button class="botao-um">Enviar</button>         
+      </form>
+   </main>
+   <div class="resposta">       
+   </div>
+   <script src="dia2.js"></script>
+</body>
+</html>
